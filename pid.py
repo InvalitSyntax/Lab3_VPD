@@ -3,9 +3,9 @@ import ev3dev.ev3 as motor
 import time
 import math
 
-Kp = 1.5
-Ki = 0.075
-Kd = 0
+Kp = 0.6*6.5
+Ki = 1.2*Kp/0.25
+Kd = Kp*0.25/8
 W = 180
 T = 0.025
 

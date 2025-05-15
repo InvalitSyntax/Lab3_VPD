@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 # Укажите имя вашего файла
-filename = 'P1.5I0.075D0.txt'  # замените на имя вашего файла
+filename = 'P3.9I18.72D0.121875.txt'  # замените на имя вашего файла
 # Чтение данных из файла
 times = []
 angles = []
